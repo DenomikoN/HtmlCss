@@ -6,10 +6,45 @@
 .body {
     width: 770px;
     margin: 70px auto 0;
-
-    /*outline: 1px red solid;*/
 }
 
+/* Generic style */
+
+.button {
+    padding: 5px;
+    color: #d18b6b;
+    font:  bold 16px "Arial Narrow", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+    border: 2px #d18b6b solid;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.head {
+    color: #d18b6b;
+    text-transform: uppercase;
+    font:  bold 36px "Arial Narrow", sans-serif;
+}
+
+.head-text {
+    color: #a9a9a9;
+    text-transform: uppercase;
+    font: 18px "Verdana", sans-serif;
+}
+
+.other-text {
+    color: #464650;
+    font: 12px "Verdana", sans-serif;
+    line-height: 1.8;
+}
+
+.bold-white {
+    color: white;
+    font-weight: bold;
+}
 
 /* Menu */
 
@@ -61,10 +96,10 @@ nav {
 .banner { /* <div> */
     width: inherit;
     height: 413px;
-    background-position: center;
+    
     background-image: url("../Images/banner_bg.png"), url("../Images/banner_bg0.png");
 }
-
+ 
 .social {
     width: 111px;
     height: 31px;
@@ -72,3 +107,98 @@ nav {
     left: 330px;
     top: 350px;
 }
+
+/* About me */
+
+.about {
+    width: inherit;
+    height: 245px;
+    background-image: url("../Images/about_bg.jpg");
+}
+
+.about-head {
+    margin: 0;
+    padding: 36px 0 10px; 
+    text-align: center; 
+}
+
+.about-text {
+    text-align: center;
+    margin: 8px;
+}
+
+.about-button {
+    position: relative;
+    top: 20px;
+    left: 320px;
+}
+
+/* CONTENT */
+.content {
+    width: inherit;
+    height: 1245px;
+    background-color: #24232d;
+}
+
+/* Information */
+.info {
+    width: inherit;
+    height: 252px;
+}
+
+.info-left {
+    padding: 35px 0 0 30px;
+    width: 350px;
+    float: left;
+}
+.info-right {
+    padding: 35px 0 0 30px;
+    width: 350px;
+    float: right;
+}
+
+.info-head {
+    margin: 0 0 ;
+    padding: 0;
+    font-size: 22px;
+
+}
+
+.info-ref {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.info-button {
+    position: relative;
+    top: 14px;
+}
+
+
+
+
+
+/* Portfolio */
+
+.portfolio {
+    width: inherit;
+    height: 567px;
+    outline: 1px yellow solid;
+}
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    width: inherit;
+    height: 145px;
+    background-color: #000;
+    margin-bottom: 90px;
+}
+ 
+

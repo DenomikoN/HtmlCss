@@ -65,8 +65,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\about_bg.jpg" />
+    <Content Include="Images\banner_bg.png" />
+    <Content Include="Images\banner_bg0.png" />
     <Content Include="Images\body_bg.png" />
+    <Content Include="Images\light_bg.png" />
     <Content Include="Images\menu_bg.png" />
+    <Content Include="Images\social.png" />
     <Content Include="index.html" />
     <Content Include="Style\style.css" />
     <Content Include="Web.config" />

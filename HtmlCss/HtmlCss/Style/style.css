@@ -3,7 +3,6 @@
     padding: 0;
     background-image: url("../Images/body_bg.png");
 }
-
 .body {
     width: 770px;
     margin: 70px auto 0;
@@ -11,30 +10,65 @@
     /*outline: 1px red solid;*/
 }
 
+
+/* Menu */
+
 nav {
-    width: 100%;
+    width: inherit;
     height: 70px;
     background-image: url("../Images/menu_bg.png");
 }
-
-.menu_caption {
+.menu_caption { /* <p> */
     margin: 15px;
     color: white;
     font:  bold 28px "Arial Narrow", sans-serif;
     text-transform: uppercase;
     float: left;
 }
-.menu  {
+.menu  { /* <ul> */
     margin: 0;
-    padding: 26px;
+    padding: 0;
+    height: inherit;
     float: right;
 }
-.menu_item {
+.menu_item { /* <li> */
+    height: inherit;
     display: inline-block;
 }
-.menu_ref {
+.menu_ref { /* <a> */
+    display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center; 
     font-size: 14px;
     color: white;
+    padding: 27px 8px;
+}
+.menu_ref:hover { /* <a> */
+    -webkit-box-shadow: inset 0 0 7px 3px rgba(110,110,110,0.6);
+    -ms-box-shadow: inset 0 0 7px 3px rgba(110,110,110,0.6);
+    box-shadow: inset 0 0 7px 3px rgba(110,110,110,0.6);
+}
+
+.menu_ref:active { /* <a> */
+    -webkit-box-shadow: inset 0 0 20px 5px rgba(10,10,10,0.6);
+    -ms-box-shadow: inset 0 0 20px 5px rgba(10,10,10,0.6);
+    box-shadow: inset 0 0 20px 5px rgba(10,10,10,0.6);
+}
+
+/* Banner */
+
+.banner { /* <div> */
+    width: inherit;
+    height: 413px;
+    background-position: center;
+    background-image: url("../Images/banner_bg.png"), url("../Images/banner_bg0.png");
+}
+
+.social {
+    width: 111px;
+    height: 31px;
+    position: relative;
+    left: 330px;
+    top: 350px;
 }

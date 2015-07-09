@@ -70,6 +70,7 @@
     <Content Include="Images\banner_bg0.png" />
     <Content Include="Images\body_bg.png" />
     <Content Include="Images\light_bg.png" />
+    <Content Include="Images\line.png" />
     <Content Include="Images\menu_bg.png" />
     <Content Include="Images\pf1.png" />
     <Content Include="Images\pf2.png" />

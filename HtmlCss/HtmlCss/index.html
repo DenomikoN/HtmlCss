@@ -1,122 +1,185 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<link type="text/css" href="Style/style.css" rel="stylesheet" />
-	<link type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Julius+Sans+One" rel="stylesheet" />
 	<title>HTML&amp;CSS</title>
+	<link type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Julius+Sans+One" rel="stylesheet" />
+
+	<link type="text/css" href="Style/reset.css" rel="stylesheet" />
+
+	<link type="text/css" href="Style/fonts.css" rel="stylesheet" />
+	<link type="text/css" href="Style/buttons.css" rel="stylesheet" />
+	<link type="text/css" href="Style/textboxes.css" rel="stylesheet" />
+
+	<link type="text/css" href="Style/body.css" rel="stylesheet" />
+
+	<link type="text/css" href="Style/menu.css" rel="stylesheet" />
+	<link type="text/css" href="Style/about.css" rel="stylesheet" />
+	<link type="text/css" href="Style/information.css" rel="stylesheet" />
+	<link type="text/css" href="Style/portfolio.css" rel="stylesheet" />
+	<link type="text/css" href="Style/form-contact.css" rel="stylesheet" />
+	<link type="text/css" href="Style/footer.css" rel="stylesheet" />
+	<link type="text/css" href="Style/social.css" rel="stylesheet" />
 </head>
-<body>
-	<div class="background"></div>
-	<div class="body">
-		<nav class="menu-container">
-			<p class="menu_caption">Your name</p>
-			<ul class="menu">
-				<li class="menu_item">
-					<a href="index.html" class="menu_ref">Home</a>
-				</li>
-				<li class="menu_item">
-					<a href="#" class="menu_ref">About</a>
-				</li>
-				<li class="menu_item">
-					<a href="#" class="menu_ref">Services</a>
-				</li>
-				<li class="menu_item">
-					<a href="#" class="menu_ref">Portfolio</a>
-				</li>
-				<li class="menu_item">
-					<a href="#" class="menu_ref">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<div class="banner">
-			<div class="social">
-				<img src="Images/social.png" alt="Social" class="social_img" usemap="#social_map">
-				<map id="social_map" name="social_map">
-					<area href="http://www.facebook.com" shape="circle" coords="19, 15, 15" alt="Facebook" title="Facebook" target="_blank">
-					<area href="https://twitter.com/" shape="circle" coords="56, 15, 15" alt="Twitter" title="Twitter" target="_blank">
-					<area href="https://www.linkedin.com/" shape="circle" coords="94, 15, 15" alt="LinkedIn" title="LinkedIn" target="_blank">
-				</map>
+<body class="body">
+	<div class="light-shadow-background"></div>
+	<div class="page-body">
+		<div class="header">
+			<div class="logo-container">
+				<p class="logo-font">Your name</p>
+			</div>
+			<div class="navigator">
+				<ul class="menu-items-container">
+					<li class="menu-item">
+						<a href="index.html" class="menu-ref menu-font menu-ref-select">Home</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="menu-ref menu-font">About</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="menu-ref menu-font">Services</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="menu-ref menu-font">Portfolio</a>
+					</li>
+					<li class="menu-item">
+						<a href="#" class="menu-ref menu-font">Contact</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div class="about">
-			<p class="head about-head">Hello Iam Kate Doe</p>
-			<p class="head-text about-text">
-				Donec nec justo <span class="bold-white">eget felis</span> facilisis fermentum
-			</p>
-			<p class="head-text about-text">Pelle ntesque felis lorem ipsum dolor</p>
-			<a href="#" class="button about-button">More about me</a>
+		<div class="banner-container">
+			<div class="social-container">
+				<a href="http://www.facebook.com" class="facebook" title="Facebook" target="_blank"></a>
+				<a href="https://twitter.com" class="twitter" title="Twitter" target="_blank"></a>
+				<a href="https://www.linkedin.com" class="linkedin" title="LinkedIn" target="_blank"></a>
+			</div>
 		</div>
-		<article class="content">
-			<div class="info">
-				<div class="info-left">
-					<p class="head info-head">Nunc dignissim risus</p>
-					<p class="other-text">Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-					<a href="#" class="button info-button">More info</a>
+		<div class="about-container">
+			<div class="about-head-container">
+				<p class="head-font">Hello Iam Kate Doe</p>
+			</div>
+			<div class="about-text-container">
+				<p class="head-text">Donec nec justo <span class="head-text-select">eget felis</span> facilisis fermentum</p>
+				<p class="head-text about-text">Pelle ntesque felis lorem ipsum dolor</p>
+			</div>
+			<div class="about-button-container">
+				<a href="#" class="button about-button">More about me</a>
+			</div>
+		</div>
+		<article class="content-container">
+			<div class="info-container">
+				<div class="info-container-left">
+					<p class="head-font-small">Nunc dignissim risus</p>
+					<div class="info-text-container">
+						<p class="other-text">
+							Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu
+							<span class="other-text-select">vulputate magna eros eu erat.</span>
+							Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+						</p>
+					</div>
+					<div class="info-button-container">
+						<a href="#" class="button">More info</a>
+					</div>
 				</div>
-				<div class="info-right">
-					<p class="head info-head">Vivamus vestibulum nulla</p>
-					<p class="other-text">Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+				<div class="info-container-right">
+					<p class="head-font-small">Vivamus vestibulum nulla</p>
+					<div class="info-text-container">
+						<p class="other-text">Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+					</div>
+					<div class="info-ref-container"></div>
 					<p class="other-text">
-						<a href="#" class="info-ref">Integer vita</a> /
-						<a href="#" class="info-ref">Egestis</a> /
-						<a href="#" class="info-ref">Tindidunt</a>
+						<a href="#" class="ref-select">Integer vita</a> /
+						<a href="#" class="ref-select">Egestis</a> /
+						<a href="#" class="ref-select">Tindidunt</a>
 					</p>
-					<a href="#" class="button info-button">More info</a>
+					<div class="info-button-container">
+						<a href="#" class="button">More info</a>
+					</div>
 				</div>
 			</div>
-			<div class="portfolio">
-				<p class="head pf-head">Portfolio</p>
-				<p class="head-text">Integer vitae libero ac risus egestas placerat</p>
-				<div class="pf-buttons">
+			<div class="portfolio-container">
+				<div class="portfolio-head-container">
+					<p class="head-font">Portfolio</p>
+				</div>
+				<div class="portfolio-text-container">
+					<p class="head-text">Integer vitae libero ac risus egestas placerat</p>
+				</div>
+				<div class="portfolio-buttons-container">
 					<a href="#" class="button portfolio-button-select">Tomdicmt</a>
 					<a href="#" class="button portfolio-button">Voluptin</a>
 					<a href="#" class="button portfolio-button">Fermentu</a>
 				</div>
-				<div class="gallery">
+				<div class="gallery-container">
 					<div class="portfolio-element">
-						<img src="Images/pf1.png" class="portfolio-img" />
+						<img src="Images/pf1.png" class="portfolio-img" alt="Portfolio image 1" />
 					</div>
 					<div class="portfolio-element">
-						<img src="Images/pf2.png" class="portfolio-img" />
+						<img src="Images/pf2.png" class="portfolio-img" alt="Portfolio image 2" />
 					</div>
 					<div class="portfolio-element">
-						<img src="Images/pf3.png" class="portfolio-img" />
+						<img src="Images/pf3.png" class="portfolio-img" alt="Portfolio image 3" />
 					</div>
 					<div class="portfolio-element">
-						<img src="Images/pf4.png" class="portfolio-img" />
+						<img src="Images/pf4.png" class="portfolio-img" alt="Portfolio image 4" />
 					</div>
 					<div class="portfolio-element">
-						<img src="Images/pf5.png" class="portfolio-img" />
+						<img src="Images/pf5.png" class="portfolio-img" alt="Portfolio image 5" />
 					</div>
 					<div class="portfolio-element">
-						<img src="Images/pf6.png" class="portfolio-img" />
+						<img src="Images/pf6.png" class="portfolio-img" alt="Portfolio image 6" />
 					</div>
 					<div class="portfolio-element">
-						<img src="Images/pf7.png" class="portfolio-img" />
+						<img src="Images/pf7.png" class="portfolio-img" alt="Portfolio image 7" />
 					</div>
 				</div>
 			</div>
-			<div class="contact">
-				<p class="head contact-head">Contact me</p>
-				<p class="head-text">Lorem ger vitae libero ac risus</p>
-				<form action="" method="POST">
-					<input type="text" placeholder="Name here..." class="input text-box" />
-					<input type="email" placeholder="Email here..." class="input text-box" />
-					<textarea placeholder="Message here..." class="input msg-box"></textarea>
-					<input type="submit" value="Submit" class="contact-submit" />
+			<div class="form-contact">
+				<div class="contact-head-container">
+					<p class="head-font">Contact me</p>
+				</div>
+				<div class="contact-text-container">
+					<p class="head-text">Lorem ger vitae libero ac risus</p>
+				</div>
+				<form action="" method="POST" class="form-container">
+					<div class="textbox-container">
+						<div class="textbox-left-container">
+							<input type="text" placeholder="Name here..." class="input" />
+						</div>
+						<div class="textbox-right-container">
+							<input type="email" placeholder="Email here..." class="input" />
+						</div>
+					</div>
+					<div class="textbox-multiline-container">
+						<textarea placeholder="Message here..." class="input-multiline"></textarea>
+					</div>
+					<div class="submit-container">
+						<input type="submit" value="Submit" class="submit" />
+					</div>
 				</form>
 			</div>
 		</article>
-		<footer class="footer">
+		<div class="footer">
 			<div class="footer-left">
-				<p class="head footer-head">Designed by</p>
-				<p class="other-text">www.alltemplateneeds.com<br />www.alldesignneeds.com</p>
+				<div class="footer-head-container">
+					<p class="head-font-small">Designed by</p>
+				</div>
+				<div class="footer-mails-container">
+					<p class="other-text">
+						www.alltemplateneeds.com<br />www.alldesignneeds.com
+					</p>
+				</div>
 			</div>
 			<div class="footer-right">
-				<p class="head footer-head">Images from</p>
-				<p class="other-text">www.wallpaperswide.com<br />www.wallcoo.com</p>
+				<div class="footer-head-container">
+					<p class="head-font-small">Images from</p>
+				</div>
+				<div class="footer-mails-container">
+					<p class="other-text">
+						www.wallpaperswide.com<br />www.wallcoo.com
+					</p>
+				</div>
 			</div>
-		</footer>
+		</div>
 	</div>
 </body>
 </html>

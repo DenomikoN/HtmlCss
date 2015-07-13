@@ -1,0 +1,24 @@
+﻿.info-container {
+	display: table;
+	background-color: #24232d;
+}
+
+.info-container-left, .info-container-right {
+	display: table-cell;
+	width: 50%;
+	padding: 36px 10px 0 30px;
+}
+
+.info-text-container {
+	margin-top: 6px;
+}
+
+.info-button-container {
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 52px;
+}
+
+.info-ref-container {
+	margin-top: 21px;
+}

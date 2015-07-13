@@ -1,0 +1,45 @@
+﻿.form-contact {
+	text-align: center;
+	background-color: #24232D;
+}
+
+.contact-head-container {
+	display: inline-block;
+	margin-top: 32px;
+}
+
+.contact-text-container {
+	margin-top: 12px;
+}
+
+.form-container {
+	margin-top: 35px;
+	padding: 0 100px;
+}
+
+.textbox-container {
+	display: table;
+	width: 100%;
+}
+
+.textbox-left-container, .textbox-right-container {
+	display: table-cell;
+}
+
+.textbox-left-container {
+	padding-right: 15px;
+}
+
+.textbox-right-container {
+	padding-left: 15px;
+}
+
+.textbox-multiline-container {
+	margin-top: 20px;
+}
+
+.submit-container {
+	display: inline-block;
+	padding-top: 16px;
+	padding-bottom: 40px;
+}

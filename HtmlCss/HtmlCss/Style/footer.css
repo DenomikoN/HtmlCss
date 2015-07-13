@@ -1,0 +1,26 @@
+﻿.footer {
+	display: table;
+	width: inherit;
+	background-color: #000;
+}
+
+.footer-left, .footer-right {
+	display: table-cell;
+	width: 50%;
+}
+
+.footer-left {
+	text-align: right;
+}
+
+.footer-right {
+	text-align: left;
+}
+
+.footer-head-container {
+	margin: 35px 15px 0;
+}
+
+.footer-mails-container {
+	margin: 10px 15px 32px;
+}

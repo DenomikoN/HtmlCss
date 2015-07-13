@@ -1,0 +1,23 @@
+﻿.about-container {
+	text-align: center;
+	background-color: #17161C;
+}
+
+.about-head-container {
+	display: inline-block;
+	margin-top: 32px;
+}
+
+.about-text-container {
+	margin-top: 20px;
+}
+
+.about-text {
+	margin-top: 8px;
+}
+
+.about-button-container {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 48px;
+}

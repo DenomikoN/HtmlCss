@@ -1,0 +1,52 @@
+﻿.logo-font {
+	color: white;
+	font: 28px "FjallaOne", "Oswald", "Arial Narrow", sans-serif;
+	text-transform: uppercase;
+}
+
+.menu-font {
+	color: white;
+	font: 11px "FjallaOne", "Oswald", "Arial Narrow", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.head-font, .head-font-small {
+	color: #E99370;
+	font: 28px "Oswald", "Arial Narrow", sans-serif;
+	text-transform: uppercase;
+}
+
+.head-font-small {
+	font-size: 17px;
+}
+
+.head-text, .head-text-select {
+	color: #535067;
+	font: 18px "Julius Sans One", "Verdana", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.head-text-select {
+	color: white;
+	font-weight: bold;
+}
+
+.other-text, .other-text-select {
+	color: #55545D;
+	font: 14px "Source Sans Pro", "Verdana", sans-serif;
+	line-height: 1.7;
+}
+
+.other-text-select {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.ref-select {
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}

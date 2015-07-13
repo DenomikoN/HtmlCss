@@ -1,0 +1,64 @@
+﻿/* #region Generic buttons */
+
+.button {
+	padding: 1px 5px;
+
+	color: #d18b6b;
+	font: bold 13px "Oswald", "Arial Narrow", sans-serif;
+
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+
+	border: 2px #d18b6b solid;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* #endregion Generic buttons */
+
+/* #region Specific buttons */
+
+.about-button {
+	padding: 6px;
+}
+
+.portfolio-button {
+	padding: 3px 12px;
+	color: white;
+	background-color: #4B4A54;
+	border-width: 0;
+}
+
+.portfolio-button-select {
+	padding: 3px 12px;
+	color: black;
+	background-color: #EB9F7F;
+	border-width: 0;
+}
+
+.submit {
+	display: block;
+
+	padding: 5px 8px;
+
+	color: black;
+	background-color: #d18b6b;
+	font: bold 22px "Arial Narrow", sans-serif;
+
+	text-transform: uppercase;
+	text-align: center;
+
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	border-width: 0;
+}
+
+	.submit:hover {
+		cursor: pointer;
+		background-color: #E19b7b;
+	}
+
+/* #endregion Specific buttons */

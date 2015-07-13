@@ -1,0 +1,25 @@
+﻿.facebook, .twitter, .linkedin {
+	display: inline-block;
+
+	width: 30px;
+	height: 30px;
+
+	margin: 3px;
+
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-ms-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.twitter {
+	background-image: url("../Images/twitter.png");
+}
+
+.facebook {
+	background-image: url("../Images/facebook.png");
+}
+
+.linkedin {
+	background-image: url("../Images/linkedin.png");
+}

@@ -65,13 +65,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\about_bg.jpg" />
-    <Content Include="Images\banner_bg.png" />
-    <Content Include="Images\banner_bg0.png" />
-    <Content Include="Images\body_bg.png" />
+    <Content Include="Images\banner.png" />
+    <Content Include="Images\body-bg.png" />
+    <Content Include="Images\facebook.png" />
     <Content Include="Images\light_bg.png" />
-    <Content Include="Images\line.png" />
-    <Content Include="Images\menu_bg.png" />
+    <Content Include="Images\linkedin.png" />
     <Content Include="Images\pf1.png" />
     <Content Include="Images\pf2.png" />
     <Content Include="Images\pf3.png" />
@@ -79,10 +77,20 @@
     <Content Include="Images\pf5.png" />
     <Content Include="Images\pf6.png" />
     <Content Include="Images\pf7.png" />
-    <Content Include="Images\pf_border.png" />
-    <Content Include="Images\social.png" />
+    <Content Include="Images\twitter.png" />
     <Content Include="index.html" />
-    <Content Include="Style\style.css" />
+    <Content Include="Style\about.css" />
+    <Content Include="Style\body.css" />
+    <Content Include="Style\buttons.css" />
+    <Content Include="Style\footer.css" />
+    <Content Include="Style\form-contact.css" />
+    <Content Include="Style\fonts.css" />
+    <Content Include="Style\information.css" />
+    <Content Include="Style\portfolio.css" />
+    <Content Include="Style\menu.css" />
+    <Content Include="Style\reset.css" />
+    <Content Include="Style\social.css" />
+    <Content Include="Style\textboxes.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
